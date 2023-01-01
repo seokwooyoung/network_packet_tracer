@@ -1,3 +1,30 @@
+<LACP설정>
+# int range [g4/1,g5/1 등 포트]
+
+-range)# channel-group 1 mode active : 무조건 LACP 가능
+
+# do show running-config 
+        interface Port-channel 1 확인 가능
+
+
+<TRUNK 설정>
+
+# int range [g6/1,g7/1 등 포트]
+
+-range)# switchport mode trunk
+-range)# switchport trunk allowed vlan 10,20
+
+# do show running-config   
+        trunk 확인 가능
+
+
+
+
+
+
+
+
+
 
 # do show run 
 password가 평문으로 나오게 되면 위험

@@ -1,0 +1,5 @@
+[SPANNING TREE]
+
+#int port-channel 1
+-if)# spanning-tree bpduguard enable
+-if)# spanning-tree portfast
