@@ -1,0 +1,13 @@
+
+# do show run 
+password가 평문으로 나오게 되면 위험
+
+<암호화>
+# service password-encryption
+
+
+# enable ?
+    secret(우선순위 높음)
+    password
+
+#
