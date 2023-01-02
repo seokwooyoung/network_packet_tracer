@@ -5,6 +5,10 @@
 
 # do show running-config 
         interface Port-channel 1 확인 가능
+        
+# int port-channel1
+-if)# switchport mode trunk
+-if)# switchport trunk allowed vlan 10,20
 
 
 <TRUNK 설정>
